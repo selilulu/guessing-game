@@ -6,10 +6,10 @@
     var givenNumber = document.getElementById("guess").value;
 
     if ( randomNumber==givenNumber){
-        alert('Awesome! You are so good!'+ randomNumber + ' was correct.' )
+        alert('Awesome! You are so good!'+ randomNumber + ' was correct.' );
     }
-    else if (randomNumber !== givenNumber){
-        alert('Bummer... You guessed '+ givenNumber + 'and the secret number was'+ randomNumber )
+    else {
+        alert('Bummer... You guessed '+ givenNumber + 'and the secret number was'+ randomNumber );
     }
 
  });
